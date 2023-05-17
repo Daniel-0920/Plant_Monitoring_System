@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    height: 150px;
+  }
+  
+  .container {
+    display: flex;
+    border-bottom: 1px solid #969696;
+    align-items: center;
+    width: 100%;
+  }
+
+  .logo {
+    font-size: 30pt;
+    text-decoration: none;
+    height: fit-content;
+  }
