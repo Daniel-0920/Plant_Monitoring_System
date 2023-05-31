@@ -3,6 +3,11 @@ import styles from "./Row.module.css"
 
 export const Row = () => {
     const navigate = useNavigate()
+
+    const handleButtonClick = () => {
+        navigate('/row/tree');
+      };
+
     return (
         <>
             <div className={styles.container}>
@@ -15,11 +20,10 @@ export const Row = () => {
                     </div>
                 </div>
                 <div className={styles.TreeView}>
-                    <button className={styles.button} onClick={() => navigate('tree')}>Row A</button>
-                    <button className={styles.button} onClick={() => navigate('tree')}>Row B</button>
-                    <button className={styles.button} onClick={() => navigate('tree')}>Row C</button>
-                    <button className={styles.button} onClick={() => navigate('tree')}>Row D</button>
-                    <button className={styles.button} onClick={() => navigate('tree')}>Row E</button>
+                    <button className={styles.button} onClick={handleButtonClick}>Row A</button>
+                    
+
+                   
 
 
                 </div>
