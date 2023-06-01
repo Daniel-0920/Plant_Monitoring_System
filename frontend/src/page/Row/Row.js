@@ -21,11 +21,10 @@ export const Row = () => {
                 </div>
                 <div className={styles.TreeView}>
                     <button className={styles.button} onClick={handleButtonClick}>Row A</button>
-                    
-
-                   
-
-
+                    <button className={styles.button} onClick={handleButtonClick}>Row B</button>
+                    <button className={styles.button} onClick={handleButtonClick}>Row C</button>
+                    <button className={styles.button} onClick={handleButtonClick}>Row D</button>
+                    <button className={styles.button} onClick={handleButtonClick}>Row E</button>
                 </div>
             </div>
             

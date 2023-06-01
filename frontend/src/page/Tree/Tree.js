@@ -21,10 +21,10 @@ export const Tree = () => {
                 </div>
                 <div className={styles.FruitView}>
                 <button className={styles.button} onClick={handleButtonClick}>Tree A</button>
-
-
-
-
+                <button className={styles.button} onClick={handleButtonClick}>Tree B</button>
+                <button className={styles.button} onClick={handleButtonClick}>Tree C</button>
+                <button className={styles.button} onClick={handleButtonClick}>Tree D</button>
+                <button className={styles.button} onClick={handleButtonClick}>Tree E</button>
                 </div>
             </div>
 
